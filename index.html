@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body {
+  height: 100%;
+  margin: 0
+}
+.form {
+  margin: 0 auto;
+  left: 50%; 
+  text-align: center;
+}
+
+input {
+  font-size: 40px;
+}
+
+.button {
+  font-size: 20px;
+  background-color: #008CBA;
+  border-radius: 12px;
+  padding: 14px 40px;
+  left: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+  background-color: #008CBA;
+  height: 100px;
+  font-size: 42px;
+  text-align: center;
+  font-family: palatino linotype;
+}
+
+.box .row.content {
+  background-color: gray;
+  flex: 1 1 auto;
+}
+
+.box .row.footer {
+  background-color: #008CBA;
+  flex: 0 1 40px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+  <div class="row header">
+    <p><b>Pour Over Calculator</b>
+      <br />
+  </div>
+  <div class="row content">
+    <form class="form">
+      Coffee (g) <br>
+      <input type="text" name="coffee">
+      <br>
+      Ratio <br>
+      <input type="text" name="ratio">
+      <br>
+    </form>
+    <div class="btn">
+      <input type="button" class="button" value="CALCULATE">
+    </div>
+    <form class="form">
+      Amount of Water (g) <br>
+      <input type="test" name="water">
+    </form>
+  </div>
+  <div class="row footer">
+    <p><b>Web App</b></p>
+  </div>
+</div>
+</body>
+<script>
+
+</script>
+</html>
